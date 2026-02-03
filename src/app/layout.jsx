@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
 	title: "NovaCRM",
 	description: "Customer Relationship Management System",
+	author: "Gaus Al Munir",
 };
 
 export default function RootLayout({ children }) {
