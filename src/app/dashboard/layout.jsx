@@ -1,5 +1,4 @@
 import DashboardNavbar from "@/components/layouts/DashboardNavbar";
-import React from "react";
 
 const DashboardLayout = ({ children }) => {
 	return (
@@ -9,7 +8,7 @@ const DashboardLayout = ({ children }) => {
 				<div>
 					<DashboardNavbar />
 				</div>
-				<div>{children}</div>
+				<div className="p-4">{children}</div>
 			</section>
 		</main>
 	);

@@ -3,10 +3,9 @@ import Input from "../ui/Input";
 
 const DashboardNavbar = () => {
 	return (
-		<div className="border border-gray-800 flex">
-			{/* <Input />
-			<Avatar /> */}
-			DashboardNavbar
+		<div className="flex justify-between p-3 h-20 border-b">
+			<Input />
+			<Avatar />
 		</div>
 	);
 };
